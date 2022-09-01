@@ -34,10 +34,34 @@
         </div>
         <form action="" id="customer-reviews">
             <legend><h2>Customer Reviews</h2></legend>
-            <p>What do you like about our services and/or what do you think we can improve to give you a better experience?</p>
-            <textarea name="comments" id="user-comment" cols="30" rows="10" placeholder="Add comment..."></textarea><br>
+            <p>What do you like about our services? <br> What do you think we can improve to give you a better experience?</p>
+            <textarea name="comments" id="user-comment" cols="30" rows="10" placeholder="Share your thoughts..."></textarea><br>
             <input type="submit" value="submit" id="submit">
         </form>
+        <div id="comments-section">
+            <h3 id="comments">comments</h3>
+            <ul id="added-comments">
+                <li>Paul : I like it!
+                    <ul id="reply">
+                        <p>2 replies...</p>
+                        <li> Customer Service: Thank you!</li>
+                        <li> Paul: Welcome!</li>
+                    </ul>
+                </li>
+                <li> Ivy : It is very efficient and quite appealing. I didn't even know a site like this exists.
+                    <ul id="reply">
+                        <p>1 reply...</p>
+                        <li>Customer Service: We appreciate you.</li>
+                    </ul>
+                </li>
+                <li>Anonymous : It suck that I cannot more details about the actors or suggestions of other movies based on my preferences.
+                    <ul id="reply">
+                        <p>1 reply...</p>
+                        <li> Customer Service: Thank you for your feedback. We will see what we can do about it.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </div>
 
     <script src="./assets/js/main.js"></script>   
