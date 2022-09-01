@@ -16,7 +16,7 @@ div#main-container {
 } */
 img#logo {
     height: 40vh;
-    width: 30vw;
+    width: 500px;
     display: block;
     margin: 0 auto;
 }
@@ -37,14 +37,14 @@ h1#about {
     width: 20vw;
     font-weight: 600;
 }
-#search {
+#search, #submit {
     margin-left: 10px;
     background-color: red;
     border-radius: 10px;
     color: white;
     font-weight: 600;
     height: 5vh;
-    width: 9vw;
+    padding: 0 2vw;
 }
 /* Search-Results Div */
 #results {
@@ -57,4 +57,17 @@ img.result {
 }
 div#movie-details-result {
     width: 30vw;
+}
+
+/* customer reviews form */
+#customer-reviews {
+    margin: 50px 90px;
+    /* text-align: center; */
+}
+legend h2 {
+    border-bottom: white solid 5px;
+    color: red;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
 }
