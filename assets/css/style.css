@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(18, 18, 206);
+    /* font-family: serif; */
+    /* font-size: ; */   
+}
+div#main-container {
+    background-color: black;
+    width: 90vw;
+    margin: 0 auto;
+}
+img#logo {
+    height: 40vh;
+    width: 30vw;
+    display: block;
+    margin: 0 auto;
+}
+
