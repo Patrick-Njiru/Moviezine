@@ -89,12 +89,15 @@ ul#added-comments {
     border-radius: 5px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
+    
     div#main-container {
         width: 90vw;
         margin: 0 auto;
     }
     p {font-size: medium;}
+
+    /* Header */
     img#logo {
         height: 20vh;
         width: 200px;
@@ -106,6 +109,8 @@ ul#added-comments {
         color: red;
         font-size: larger;
     }
+
+    /* Search-Results Div */
     #results {
         margin-top: 30px;
         display: flex;
@@ -120,5 +125,7 @@ ul#added-comments {
         text-align: center;
         margin: auto;
     }
+
+    /* customer reviews form */
     legend h2 { font-size: larger;}
 }
