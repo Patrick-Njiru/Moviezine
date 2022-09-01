@@ -1,21 +1,22 @@
+/* General*/
+
 body {
-    background-color: rgb(18, 18, 206);
-    color: white;
+    /* background-color: rgb(18, 18, 206); */
+    color: wheat;
     font-family: Arial, Helvetica, sans-serif  /* research best ones*/ 
     /* font-size: ; */   
 }
 div#main-container {
     background-color: black;
-    width: 95vw;
+    /* width: 95vw; */
     margin: 0 auto;
+    padding-bottom: 50px;
 }
+p {font-size: larger;}
 
 /* Header */
-/* header {
-    background-image: ;
-} */
 img#logo {
-    height: 40vh;
+    height: 50vh;
     width: 500px;
     display: block;
     margin: 0 auto;
@@ -23,9 +24,10 @@ img#logo {
 h1#about {
     text-align: center;
     color: red;
+    width: 90vw;
 }
 
-/* Form */
+/* Movie Search Form */
 #search-form {
     margin-top: 50px;
     text-align: center;
@@ -36,16 +38,18 @@ h1#about {
     height: 5vh;
     width: 20vw;
     font-weight: 600;
+    background-color: wheat;
 }
 #search, #submit {
     margin-left: 10px;
     background-color: red;
     border-radius: 10px;
-    color: white;
+    color: wheat;
     font-weight: 600;
     height: 5vh;
     padding: 0 2vw;
 }
+
 /* Search-Results Div */
 #results {
     margin-top: 60px;
@@ -62,12 +66,36 @@ div#movie-details-result {
 /* customer reviews form */
 #customer-reviews {
     margin: 50px 90px;
-    /* text-align: center; */
 }
 legend h2 {
-    border-bottom: white solid 5px;
+    border-bottom: wheat solid 5px;
     color: red;
     text-align: center;
     margin-bottom: 30px;
     padding-bottom: 10px;
+}
+textarea {
+    background-color: wheat;
+    width: 50vw;
+
+}
+
+/* Comments */
+h3#comments {
+    margin-left: 90px;
+}
+ul#added-comments {
+    list-style-type: circle;
+    line-height: 30px;
+    background-color: wheat;
+    color: black;
+    margin: 0 90px 50px 90px;
+    font-style: italic;
+    font-weight: bold;
+}
+#reply {
+    list-style-type: none;
+}
+ul p {
+    font-size: 15px;
 }
