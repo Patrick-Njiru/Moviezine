@@ -50,14 +50,13 @@ h1#about {
 #results {
     margin-top: 60px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
-img.result {
-    width: 50vw;
-    border-radius: 5px;
+img#resulting-image {
+    padding-top: 80px;
 }
 div#movie-details-result {
-    width: 40vw;
+   width: 40vw;
 }
 
 /* customer reviews form */
@@ -89,6 +88,14 @@ ul#added-comments {
     border-radius: 5px;
 }
 
+/* <p> containing details from API */
+p#movie-info {
+    line-height: 2em;
+}
+p#movie-info span {
+    color: red;
+}
+
 @media screen and (max-width: 700px) {
     
     div#main-container {
@@ -116,10 +123,10 @@ ul#added-comments {
         display: flex;
         flex-direction: column;
     }
-    img.result {
-        width: 90vw;
+    img#resulting-image {
         border-radius: 5px;
         display: block;
+        margin: 0 auto;
     }
     div#movie-details-result {
         text-align: center;
