@@ -9,6 +9,8 @@ div#main-container {
     width: 90vw;
     margin: 0 auto;
 }
+
+/* Header */
 img#logo {
     height: 40vh;
     width: 30vw;
@@ -20,11 +22,10 @@ h1#about {
 }
 
 /* Form */
-form#search-form {
+#search-form {
     margin-top: 50px;
     text-align: center;
 }
-
 #movie-title {
     border-radius: 5px;
     text-align: center;
@@ -40,5 +41,4 @@ form#search-form {
     font-weight: 600;
     height: 5vh;
     width: 9vw;
-
 }
