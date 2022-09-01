@@ -6,11 +6,14 @@ body {
 }
 div#main-container {
     background-color: black;
-    width: 90vw;
+    width: 95vw;
     margin: 0 auto;
 }
 
 /* Header */
+/* header {
+    background-image: ;
+} */
 img#logo {
     height: 40vh;
     width: 30vw;
@@ -19,6 +22,7 @@ img#logo {
 }
 h1#about {
     text-align: center;
+    color: red;
 }
 
 /* Form */
@@ -41,4 +45,16 @@ h1#about {
     font-weight: 600;
     height: 5vh;
     width: 9vw;
+}
+/* Search-Results Div */
+#results {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+img.result {
+    width: 40vw;
+}
+div#movie-details-result {
+    width: 30vw;
 }
