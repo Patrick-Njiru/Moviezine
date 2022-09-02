@@ -94,6 +94,10 @@ p#movie-info {
 }
 p#movie-info span {
     color: red;
+    font-weight: 600;
+}
+p#movie-info strong {
+    font-size: 30px;
 }
 
 @media screen and (max-width: 700px) {
