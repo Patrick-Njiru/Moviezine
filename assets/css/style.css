@@ -51,6 +51,9 @@ h1#about {
     margin-top: 60px;
     display: flex;
     justify-content: space-evenly;
+    border-bottom: red 2px dotted;
+    border-top: red 2px dotted;
+
 }
 img#resulting-image {
     padding-top: 80px;
