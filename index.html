@@ -18,12 +18,12 @@
         <!-- header section -->
         <header>
             <img id="logo" src="./assets/images/logo.png" alt="logo">
-            <h1 id="about">Get Details of Movies and TV Shows from 150+ Streaming Platforms</h1>
+            <h1 id="about">Get Details of Movies and Series from 150+ Streaming Platforms</h1>
         </header>
 
         <!-- first form for searching movies -->
         <form action="" id="search-form">
-            <input type="text" name="movie-title" id="movie-title" placeholder="search by title">
+            <input type="text" name="movie-title" id="movie-title" placeholder="search by title" required>
             <input type="submit" value="Search" id="search">
         </form>
 
@@ -46,10 +46,10 @@
 
         <!-- Second form for customer reviews
          -->
-        <form action="" id="customer-reviews">
+        <form action="" id="customer-reviews-form">
             <legend><h2>Customer Reviews</h2></legend>
             <p>What do you like about our services? <br> What do you think we can improve to give you a better experience?</p>
-            <textarea name="comments" id="user-comment" cols="30" rows="10" placeholder="Share your thoughts..."></textarea><br>
+            <textarea name="comments" id="customer-review" cols="30" rows="10" placeholder="Share your thoughts..."></textarea><br>
             <input type="submit" value="submit" id="submit">
         </form>
 
@@ -57,12 +57,9 @@
         <div id="comments-section">
             <h3 id="comments">comments</h3>
             <ul id="added-comments">
-                <li>I like it!
-                </li>
-                <li>It is very efficient and quite appealing. I didn't even know a site like this exists.
-                </li>
-                <li>It suck that I cannot the details of the actors is limited and there are no suggestions of good movies to watch.
-                </li>
+                <li>I like it!</li>
+                <li>It is very efficient and quite appealing. I didn't even know a site like this exists.</li>
+                <li>It suck that I cannot the details of the actors is limited and there are no suggestions of good movies to watch.</li>
             </ul>
         </div>
     </div>
