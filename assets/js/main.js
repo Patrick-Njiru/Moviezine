@@ -32,6 +32,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     </ul> <br>
         </p>
         `
-
     })
+    .catch(error => error)
 })
