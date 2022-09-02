@@ -44,6 +44,10 @@ h1#about {
     font-weight: 600;
     height: 5vh;
     padding: 0 2vw;
+    border: 2px outset wheat; 
+}
+#search:active, #submit:active {
+    border: 2px outset black;
 }
 
 /* Search-Results Div */
@@ -58,8 +62,11 @@ h1#about {
 img#resulting-image {
     padding-top: 80px;
 }
+img#resulting-image:hover {
+    width: 40vw;
+}
 div#movie-details-result {
-   width: 40vw;
+   width: 30vw;
 }
 
 /* customer reviews form */
@@ -104,6 +111,7 @@ p#movie-info strong {
     text-transform: capitalize;
 }
 
+
 @media screen and (max-width: 700px) {
     
     div#main-container {
@@ -135,6 +143,10 @@ p#movie-info strong {
         border-radius: 5px;
         display: block;
         margin: 0 auto;
+    }
+    img#resulting-image:hover {
+        width: 80vw;
+        height: 80vh;
     }
     div#movie-details-result {
         text-align: center;
