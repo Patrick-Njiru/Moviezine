@@ -1,8 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const form1 = document.getElementById('search-form'),
-    form2 = document.getElementById('customer-reviews'),
+    const searchForm = document.getElementById('search-form'),
+    commentsForm = document.getElementById('customer-reviews-form'),
     image = document.getElementById('resulting-image'),
-    movieDetails = document.getElementById("movie-details-result")
+    movieDetails = document.getElementById("movie-details-result"),
+    addedComments = document.getElementById('added-comments')
 
     // Default Movie and it's details
     fetch('http://www.omdbapi.com/?i=tt3896198&apikey=d6424164')
@@ -25,13 +26,30 @@ document.addEventListener('DOMContentLoaded', () => {
             <span>Plot</span> : <br> ${object.Plot} <br>
             <span>Awards</span> : <br> ${object.Awards} <br> 
             <span>Ratings</span> : 
-                    <ul>
-                        <li><i>IMDB - &nbsp; ${object.Ratings[0].Value}</i></li>
-                        <li><i>Rotten Tomatoes - &nbsp; ${object.Ratings[1].Value}</i></li>
-                        <li><i>Metacritic - &nbsp; ${object.Ratings[2].Value}</i></li>                        
-                    </ul> <br>
+            <ul>
+                <li><i>IMDB - &nbsp; ${object.Ratings[0].Value}</i></li>
+                <li><i>Rotten Tomatoes - &nbsp; ${object.Ratings[1].Value}</i></li>
+                <li><i>Metacritic - &nbsp; ${object.Ratings[2].Value}</i></li>                        
+            </ul> <br>
         </p>
         `
     })
     .catch(error => error)
+
+    // commentsForm.addEventListener('submit', e => {
+    //     e.preventDefault()
+    //     AddComment(e.customer-review.value)
+    //     commentsForm.reset()
+    // })
+    // function AddComment(userComment) {
+    //     if(userComment.length > 0) {
+    //         const li=document.createElement('li')
+    //         li.innerText = userComment
+    //         button = document.createElement('button')
+    //         button.innerText = 'undo'
+    //         li.appendChild(button)
+    //         addedComments.appendChild(li)
+    //     }
+    // }
+
 })
