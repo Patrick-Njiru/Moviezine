@@ -70,7 +70,7 @@ div#movie-details-result {
 }
 
 /* customer reviews form */
-#customer-reviews {
+#customer-reviews-form {
     margin: 50px 0;
 }
 legend h2 {
@@ -80,10 +80,11 @@ legend h2 {
     margin-bottom: 30px;
     padding-bottom: 10px;
 }
-textarea {
+input#customer-review {
     background-color: wheat;
     width: 50vw;
     border-radius: 5px;
+    height: 30px;
 
 }
 
