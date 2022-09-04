@@ -102,20 +102,30 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     }
 
-    // commentsForm.addEventListener('submit', e => {
-    //     e.preventDefault()
-    //     AddComment(e.customer-review.value)
-    //     commentsForm.reset()
-    // })
-    // function AddComment(userComment) {
-    //     if(userComment.length > 0) {
-    //         const li=document.createElement('li')
-    //         li.innerText = userComment
-    //         button = document.createElement('button')
-    //         button.innerText = 'undo'
-    //         li.appendChild(button)
-    //         addedComments.appendChild(li)
-    //     }
-    // }
+    commentsForm.addEventListener('submit', e => {
+        e.preventDefault()
+        addComment(e.target.customer_review.value)
+        commentsForm.reset()
+    })
+    function addComment(userComment) {
+        if(userComment !== '') {
+            const li=document.createElement('li')
+            li.innerText = userComment
+            button = document.createElement('button')
+            button.style.marginLeft = "10px"
+            button.style.color= "red"
+            button.style.backgroundColor = "black"
+            button.innerText = 'undo'
+            li.appendChild(button)
+            addedComments.appendChild(li)
 
+            undoComment(button)
+
+        }
+    }
+    function undoComment(element) {
+        button.addEventListener('click', () => {
+            element.parentNode.remove()
+        })
+    }
 })
