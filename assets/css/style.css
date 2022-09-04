@@ -80,11 +80,11 @@ legend h2 {
     margin-bottom: 30px;
     padding-bottom: 10px;
 }
-input#customer-review {
+textarea {
     background-color: wheat;
     width: 50vw;
     border-radius: 5px;
-    height: 30px;
+    height: 20vh;
 
 }
 
