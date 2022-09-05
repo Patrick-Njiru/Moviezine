@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `
     })
     .catch(error =>  {
-        document.getElementById("search-results"). innerText = `${error} Please refresh page and try again`
+        document.getElementById("search-results"). innerText = `${error}. Please check your connection, refresh the page and try again.`
     })
 
     searchForm.addEventListener('submit', e => {
@@ -50,9 +50,8 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(object => {
             image.removeAttribute('src')
             image.setAttribute('src', `${object.Poster}`)
-            if (object.Type == "movie") {
-                image.removeAttribute('src')
-                image.setAttribute('src', `${object.Poster}`)
+            if (object.Type === "movie") {
+                
                 movieDetails.innerHTML = 
             `
             <p id="movie-info"> 
@@ -75,9 +74,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 </ul> <br>
             </p>
             `
-            } else if (object.Type == 'series'){
-                image.removeAttribute('src')
-                image.setAttribute('src', `${object.Poster}`)
+            } else if (object.Type === 'series'){
+            
                 movieDetails.innerHTML = 
                 `
                 <p id="movie-info"> 
@@ -98,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         })
         .catch(error =>  {
-            document.getElementById("search-results"). innerHTML = `<p> <b>${error.message}. Please refresh page and try again </b> </p>`
+            document.getElementById("search-results"). innerHTML = `<p> <b>${error.message}. Please refresh page and try again. </b> </p>`
         })
     }
 
@@ -107,23 +105,23 @@ document.addEventListener('DOMContentLoaded', () => {
         addComment(e.target.customer_review.value)
         commentsForm.reset()
     })
+
     function addComment(userComment) {
-        if(userComment !== '') {
-            const li=document.createElement('li')
-            li.innerText = userComment
-            button = document.createElement('button')
-            button.style.marginLeft = "10px"
-            button.style.color= "red"
-            button.style.backgroundColor = "black"
-            button.innerText = 'undo'
-            li.appendChild(button)
-            addedComments.appendChild(li)
 
-            undoComment(button)
+        const li=document.createElement('li')
+        li.innerText = userComment
+        button = document.createElement('button')
+        button.style.marginLeft = "10px"
+        button.style.color= "red"
+        button.style.backgroundColor = "black"
+        button.innerText = 'undo'
+        li.appendChild(button)
+        addedComments.appendChild(li)
 
-        }
+        removeAddedComment(button)
     }
-    function undoComment(element) {
+
+    function removeAddedComment(element) {
         button.addEventListener('click', () => {
             element.parentNode.remove()
         })
