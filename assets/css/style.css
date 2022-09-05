@@ -57,16 +57,26 @@ h1#about {
     justify-content: space-evenly;
     border-bottom: red 2px dotted;
     border-top: red 2px dotted;
-
 }
 img#resulting-image {
-    padding-top: 80px;
+    padding-top: 50px;
 }
 img#resulting-image:hover {
     width: 40vw;
 }
 div#movie-details-result {
-   width: 30vw;
+   width: 55vw;
+}
+p#movie-info {
+    line-height: 2em;
+}
+p#movie-info span {
+    color: red;
+    font-weight: 600;
+}
+p#movie-info strong {
+    font-size: 30px;
+    text-transform: capitalize;
 }
 
 /* customer reviews form */
@@ -98,20 +108,6 @@ ul#added-comments {
     font-weight: bold;
     border-radius: 5px;
 }
-
-/* <p> containing details from API */
-p#movie-info {
-    line-height: 2em;
-}
-p#movie-info span {
-    color: red;
-    font-weight: 600;
-}
-p#movie-info strong {
-    font-size: 30px;
-    text-transform: capitalize;
-}
-
 
 @media screen and (max-width: 700px) {
     
