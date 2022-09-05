@@ -9,8 +9,8 @@
 ## Technology Used
 
 ##### 1. HTML - To create the page structure.
-##### 2. CSS - To style the HTML page by adding color, changing the position of elements on the screen and resizing text and elements among other things.
-##### 3. JavaScript - To make the page interactive by collecting data from input and returning the required output.
+##### 2. CSS - To style the HTML page by adding colors that blend well with each other and allowing the page to display properly on large screens as well as small screens.
+##### 3. JavaScript - To make the page interactive by fetching data from API and displaying it in the webpage and allowing users to add comments.
 
 ## License
 
