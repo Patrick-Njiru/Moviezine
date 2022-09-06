@@ -2,9 +2,13 @@
 ##### By Patrick Njiru
 #
 ## Description
-##### A dynamic website specifically designed for users who want to discover extensive details about a particular movies(s) or Tv Show(s). The information provided helps a user to make a fairly sound decision about whether to watch a movie or not by viewing information such as the movie plot, genre, actors, and ratings.
+##### A dynamic website specifically designed for users who want to discover extensive details about a particular movies(s) or Tv Show(s). The information provided helps a user to make a fairly sound decision about whether to watch a movie or not by viewing information such as the movie plot, genre, actors, and ratings
 
+## Installation
 
+### Requirements
+##### - A computer or smartphone and,
+##### - Internet access.
 
 ## Technology Used
 
