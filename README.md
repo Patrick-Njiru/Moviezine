@@ -13,7 +13,7 @@
 #### - Internet access.
 
 ## Setup Instructions
-#### 1. Type one of the commands below in your terminal to clone this repository in your machine:
+#### 1. Type one of the commands below in your terminal to clone this repository into your machine:
 #### `git@github.com:Patrick-Njiru/Moviezine.git` for those with SSH-Keys,
 #### `https://github.com/Patrick-Njiru/Moviezine.git` using HTTPS, or
 #### `gh repo clone Patrick-Njiru/Moviezine` when using GitHub CLI`
