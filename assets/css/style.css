@@ -27,7 +27,7 @@ h1#about {
 
 .other_movies {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 50px 0;
 }
 .one, .two, .three {
@@ -35,6 +35,11 @@ h1#about {
 }
 button {
     background-color: wheat;
+}
+.other_movies ul {
+    text-align: left;
+    margin: auto;
+    width: 50%;
 }
 /* Movie Search Form */
 #search-form {
