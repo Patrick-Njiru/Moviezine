@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `
     })
     .catch(error =>  {
-        document.getElementById("search-results"). innerText = `${error}. Please check your connection, refresh the page and try again.`
+        document.getElementById("search-results"). innerText = ` <br> ${error}. Please check your connection, refresh the page and try again.`
     })
 
     searchForm.addEventListener('submit', e => {
@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         })
         .catch(error =>  {
-            document.getElementById("search-results"). innerHTML = `<p> <b>${error.message}. Please refresh page and try again. </b> </p>`
+            document.getElementById("search-results"). innerHTML = `<p> <br> <b>${error.message}. Please refresh page and try again. </b> </p>`
         })
     }
 
