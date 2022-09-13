@@ -82,10 +82,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     <span>Title</span> : &emsp;&emsp;&emsp;&emsp; <strong><i>${object.Title}</i></strong> <br>
                     <span>Type</span> : &emsp;&emsp;&emsp;&emsp; <i>${object.Type}</i> <br>
                     <span>Genre</span> : &emsp;&emsp;&emsp; <i>${object.Genre}</i> <br>
-                    <span>Release date</span> : &nbsp; <i>${object.Released}</i> <br>
                     <span>Year(s)</span> : &emsp;&emsp;&emsp;&nbsp; <i>${object.Year}</i> <br>
                     <span>Rated</span> : &emsp;&emsp;&emsp;&nbsp; <i>${object.Rated}</i>  <br>
-                    <span>Director(s)</span> : &emsp;&emsp; <i>${object.Director}</i> <br>
                     <span>Writer(s)</span> : &emsp;&emsp;&nbsp; <i>${object.Writer}</i> <br>
                     <span>Actors</span> : &emsp;&emsp;&emsp; <i>${object.Actors}</i> <br>
                     <span>Ratings</span> : &emsp;&emsp; <i>IMDB - &nbsp; ${object.Ratings[0].Value}</i> <br>
