@@ -23,6 +23,19 @@ h1#about {
     width: 90vw;
 }
 
+/* other movies */
+
+.other_movies {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+.one, .two, .three {
+    width: 30%;
+}
+button {
+    background-color: wheat;
+}
 /* Movie Search Form */
 #search-form {
     margin-top: 50px;
@@ -95,6 +108,7 @@ textarea {
     width: 50vw;
     border-radius: 5px;
     height: 20vh;
+    padding: 10px;
 
 }
 
@@ -128,6 +142,14 @@ ul#added-comments {
         text-align: center;
         color: red;
         font-size: larger;
+    }
+
+    /* other movies */
+    .other_movies {
+        display: block;
+        /* flex-direction: column; */
+        width: 50%;
+        margin: auto;
     }
 
     /* Search-Results Div */
