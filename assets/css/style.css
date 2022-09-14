@@ -156,7 +156,7 @@ ul#added-comments {
     border-radius: 5px;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
     
     div#main-container {
         width: 90vw;
@@ -211,6 +211,9 @@ ul#added-comments {
 }
 
 @media screen and (max-width: 450px) { 
+    #main-container {
+        width: 100vw;
+    }
     .other_movies, .other_series, #recommendations, .other_animations {
         width: 70vw;
     }
