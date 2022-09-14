@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Default Movie and it's details
 
-    fetch(`http://www.omdbapi.com/?t=the+mask&plot=full&apikey=d6424164`)
+    fetch(`https://www.omdbapi.com/?t=the+mask&plot=full&apikey=d6424164`)
     .then(response => response.json())
     .then(object => {
         image.removeAttribute('src')
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
         searchForm.reset()
     })
     function resultsForSearch(string) {
-        fetch(`http://www.omdbapi.com/?t=${string}&plot=full&apikey=d6424164`)
+        fetch(`https://www.omdbapi.com/?t=${string}&plot=full&apikey=d6424164`)
         .then(response => response.json())
         .then(object => {
             image.removeAttribute('src')
