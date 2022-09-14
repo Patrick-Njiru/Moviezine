@@ -21,6 +21,51 @@
             <h1 id="about">Get Extensive Details About Movies and Series from 150+ Streaming Platforms</h1>
         </header>
 
+        
+        <!-- first form for searching movies -->
+        <form action="" id="search-form">
+            <input type="text" name="movie-title" id="movie_title" placeholder="enter title" required autocomplete="on">
+            <input type="submit" value="Search" id="search">
+        </form>
+
+        <!-- Div to display search results -->
+        <div id="search-results">
+            <div id="results">
+
+                <!-- Div for image -->
+                <div id="movie-image-result">
+                    <img src='./assets/images/themask.jpeg' width="300"
+                    alt="Movie Image Goes Here" id="resulting-image" >
+                    <!-- "https://via.placeholder.com/100/FF0000/000000?text=IMAGE.com" -->
+                </div>
+
+                <!-- Div for movie or TV Show details -->
+                
+                <div id="movie-details-result">
+                    <!-- <p>Movie Details Go Here</p> -->
+                    <p id="movie-info"> 
+                        <span>Title</span> : &emsp;&emsp;&emsp;&emsp; <strong><i>The Mask</i></strong> <br>
+                        <span>Type</span> : &emsp;&emsp;&emsp;&emsp; <i>movie</i> <br>
+                        <span>Genre</span> : &emsp;&emsp;&emsp; <i>Action, Comedy, Crime</i> <br>
+                        <span>Release date</span> : &nbsp; <i>29 Jul 1994</i> <br>
+                        <span>Rated</span> : &emsp;&emsp;&emsp;&nbsp; <i>PG-13</i>  <br>
+                        <span>Duration</span> : &emsp;&emsp;&nbsp; <i>101 min</i> <br>
+                        <span>Director(s)</span> : &emsp;&emsp; <i>Chuck Russell</i> <br>
+                        <span>Writer(s)</span> : &emsp;&emsp;&nbsp; <i> Michael Fallon, Mark Verheiden, Mike Werb</i> <br>
+                        <span>Actors</span> : &emsp;&emsp;&emsp; <i>Jim Carrey, Cameron Diaz, Peter Riegert</i> <br>
+                        <span>Plot</span> : <br> Timid bank clerk, Stanley Ipkiss (Jim Carrey). Unfortunately, he's too gentle, and is unable to handle confrontations. After one of the worst days, he finds a mask which depicts Loki, the Norse god of mischief. When he puts it on, he becomes his inner, self: a cartoon wild man. After Ipkiss's alter ego indirectly kills the friend of small time crime boss, Dorian Tyrel (Peter Greene),he wants the green-faced goon destroyed.<br>
+                        <span>Awards</span> : <br> Nominated for 1 Oscar. 6 wins & 21 nominations total <br> 
+                        <span>Ratings</span> : 
+                        <ul>
+                            <li><i>IMDB - &nbsp; IMDB - 6.9/10 </i></li>
+                            <li><i>Rotten Tomatoes - &nbsp; 80%</i></li>
+                            <li><i>Metacritic - &nbsp; 56/100</i></li>                        
+                        </ul> <br>
+                    </p>
+                </div>
+
+            </div>
+        </div>
         <div class="other_movies row1">
             <div class="one">
                 <img src="./assets/images/casinoroyale.jpg" alt=" Casino Royale"> <br> 
@@ -159,50 +204,6 @@
                         </p>
                     </details>
                 </button>
-            </div>
-        </div>
-        <!-- first form for searching movies -->
-        <form action="" id="search-form">
-            <input type="text" name="movie-title" id="movie_title" placeholder="enter title" required autocomplete="on">
-            <input type="submit" value="Search" id="search">
-        </form>
-
-        <!-- Div to display search results -->
-        <div id="search-results">
-            <div id="results">
-
-                <!-- Div for image -->
-                <div id="movie-image-result">
-                    <img src='./assets/images/themask.jpeg' width="300"
-                    alt="Movie Image Goes Here" id="resulting-image" >
-                    <!-- "https://via.placeholder.com/100/FF0000/000000?text=IMAGE.com" -->
-                </div>
-
-                <!-- Div for movie or TV Show details -->
-                
-                <div id="movie-details-result">
-                    <!-- <p>Movie Details Go Here</p> -->
-                    <p id="movie-info"> 
-                        <span>Title</span> : &emsp;&emsp;&emsp;&emsp; <strong><i>The Mask</i></strong> <br>
-                        <span>Type</span> : &emsp;&emsp;&emsp;&emsp; <i>movie</i> <br>
-                        <span>Genre</span> : &emsp;&emsp;&emsp; <i>Action, Comedy, Crime</i> <br>
-                        <span>Release date</span> : &nbsp; <i>29 Jul 1994</i> <br>
-                        <span>Rated</span> : &emsp;&emsp;&emsp;&nbsp; <i>PG-13</i>  <br>
-                        <span>Duration</span> : &emsp;&emsp;&nbsp; <i>101 min</i> <br>
-                        <span>Director(s)</span> : &emsp;&emsp; <i>Chuck Russell</i> <br>
-                        <span>Writer(s)</span> : &emsp;&emsp;&nbsp; <i> Michael Fallon, Mark Verheiden, Mike Werb</i> <br>
-                        <span>Actors</span> : &emsp;&emsp;&emsp; <i>Jim Carrey, Cameron Diaz, Peter Riegert</i> <br>
-                        <span>Plot</span> : <br> Timid bank clerk, Stanley Ipkiss (Jim Carrey). Unfortunately, he's too gentle, and is unable to handle confrontations. After one of the worst days, he finds a mask which depicts Loki, the Norse god of mischief. When he puts it on, he becomes his inner, self: a cartoon wild man. After Ipkiss's alter ego indirectly kills the friend of small time crime boss, Dorian Tyrel (Peter Greene),he wants the green-faced goon destroyed.<br>
-                        <span>Awards</span> : <br> Nominated for 1 Oscar. 6 wins & 21 nominations total <br> 
-                        <span>Ratings</span> : 
-                        <ul>
-                            <li><i>IMDB - &nbsp; IMDB - 6.9/10 </i></li>
-                            <li><i>Rotten Tomatoes - &nbsp; 80%</i></li>
-                            <li><i>Metacritic - &nbsp; 56/100</i></li>                        
-                        </ul> <br>
-                    </p>
-                </div>
-
             </div>
         </div>
 
