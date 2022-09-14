@@ -220,4 +220,7 @@ ul#added-comments {
     .one, .three, .two {
         width: 70vw;
     }
+    .to-top {
+        height: auto;
+    }
 }
