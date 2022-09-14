@@ -4,22 +4,13 @@
 
 # Description
 
-#### A dynamic website specifically designed for users who want to discover extensive details about a particular movies(s) or Tv Show(s). The information provided helps a user to make a fairly sound decision about whether to watch a movie or not by viewing information such as the movie plot, genre, actors, and ratings.
+#### A dynamic website specifically designed for users who want to discover extensive details about particular movies, animations or series. The information provided helps a user to make a fairly sound decision about whether to watch a new movie or not by viewing information such as the movie plot, genre, actors, and ratings.
 
 # Installation
 
 ## Requirements
 #### - A computer or smartphone and,
 #### - Internet access.
-
-## Setup Instructions
-#### 1. Type one of the commands below in your terminal to clone this repository into your machine:
-#### `git@github.com:Patrick-Njiru/Moviezine.git` for those with SSH-Keys or
-#### `https://github.com/Patrick-Njiru/Moviezine.git` using HTTPS or
-#### `gh repo clone Patrick-Njiru/Moviezine` when using GitHub CLI` or
-#### `Download zip file and extract it`
-
-#### 2. After succesfully executing the above command, open index.html file in your browser to view and use the webpage .
 
 # Technologies Used
 
