@@ -23,9 +23,9 @@ h1#about {
     width: 90vw;
 }
 
-/* other movies */
+/* other movies and series */
 
-.other_movies {
+.other_movies, .other_series {
     display: flex;
     justify-content: space-evenly;
     margin: 50px 0;
@@ -36,10 +36,13 @@ h1#about {
 button {
     background-color: wheat;
 }
-.other_movies ul {
+.other_movies ul, .other_series ul {
     text-align: left;
     margin: auto;
     width: 50%;
+}
+.twenty22, #recommended {
+    border-bottom: solid 1px white;
 }
 /* Movie Search Form */
 #search-form {
