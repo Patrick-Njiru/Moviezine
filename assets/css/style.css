@@ -78,7 +78,7 @@ p.movie-info strong {
     padding: 0 2vw;
     border: 2px outset wheat; 
 }
-#search:active, #submit:active {
+#search:active, #submit:active, .to-top:active {
     border: 2px outset black;
 }
 
@@ -109,6 +109,20 @@ p.movie-info span {
 p.movie-info strong {
     font-size: 30px;
     text-transform: capitalize;
+}
+
+/* link */
+.to-top {
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 0 10px 80%;
+    background-color: red;
+    border-radius: 10px;
+    color: wheat;
+    font-weight: 600;
+    height: 2vh;
+    padding: 5px;
+    border: 2px outset wheat;     
 }
 
 /* customer reviews form */
@@ -142,7 +156,7 @@ ul#added-comments {
     border-radius: 5px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 850px) {
     
     div#main-container {
         width: 90vw;
@@ -166,12 +180,12 @@ ul#added-comments {
     /* other movies and series*/
     .other_movies, .other_series, #recommendations, .other_animations {
         display: block;
-        /* flex-direction: column; */
         width: 50%;
         margin: auto;
     }
     .one, .three, .two {
         margin: 20px 0;
+        width: 150%;
     }
     /* Search-Results Div */
     #results {
@@ -192,7 +206,21 @@ ul#added-comments {
         text-align: center;
         margin: auto;
     }
-
     /* customer reviews form */
     legend h2 { font-size: larger;}
+}
+
+@media screen and (max-width: 450px) { 
+    #main-container {
+        width: 100vw;
+    }
+    .other_movies, .other_series, #recommendations, .other_animations {
+        width: 70vw;
+    }
+    .one, .three, .two {
+        width: 70vw;
+    }
+    .to-top {
+        height: auto;
+    }
 }
