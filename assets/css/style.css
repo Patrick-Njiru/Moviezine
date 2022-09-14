@@ -25,7 +25,7 @@ h1#about {
 
 /* other movies and series */
 
-.other_movies, .other_series {
+.other_movies, .other_series, .other_animations {
     display: flex;
     justify-content: space-evenly;
     margin: 50px 0;
@@ -36,13 +36,24 @@ h1#about {
 button {
     background-color: wheat;
 }
-.other_movies ul, .other_series ul {
+.other_movies ul, .other_series ul, .other_animations ul {
     text-align: left;
     margin: auto;
     width: 50%;
 }
 .twenty22, #recommended {
     border-bottom: solid 1px white;
+}
+p.movie-info {
+    line-height: 2em;
+}
+p.movie-info span {
+    color: red;
+    font-weight: 600;
+}
+p.movie-info strong {
+    font-size: 30px;
+    text-transform: capitalize;
 }
 /* Movie Search Form */
 #search-form {
@@ -88,14 +99,14 @@ img#resulting-image:hover {
 div#movie-details-result {
    width: 55vw;
 }
-p#movie-info {
+p.movie-info {
     line-height: 2em;
 }
-p#movie-info span {
+p.movie-info span {
     color: red;
     font-weight: 600;
 }
-p#movie-info strong {
+p.movie-info strong {
     font-size: 30px;
     text-transform: capitalize;
 }
@@ -153,7 +164,7 @@ ul#added-comments {
     }
 
     /* other movies and series*/
-    .other_movies, .other_series, #recommendations {
+    .other_movies, .other_series, #recommendations, .other_animations {
         display: block;
         /* flex-direction: column; */
         width: 50%;
