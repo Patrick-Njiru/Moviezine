@@ -142,7 +142,7 @@ ul#added-comments {
     border-radius: 5px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     
     div#main-container {
         width: 90vw;
@@ -172,6 +172,7 @@ ul#added-comments {
     }
     .one, .three, .two {
         margin: 20px 0;
+        width: 150%;
     }
     /* Search-Results Div */
     #results {
@@ -192,7 +193,6 @@ ul#added-comments {
         text-align: center;
         margin: auto;
     }
-
     /* customer reviews form */
     legend h2 { font-size: larger;}
 }
