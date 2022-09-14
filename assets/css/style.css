@@ -78,7 +78,7 @@ p.movie-info strong {
     padding: 0 2vw;
     border: 2px outset wheat; 
 }
-#search:active, #submit:active {
+#search:active, #submit:active, .to-top:active {
     border: 2px outset black;
 }
 
@@ -109,6 +109,20 @@ p.movie-info span {
 p.movie-info strong {
     font-size: 30px;
     text-transform: capitalize;
+}
+
+/* link */
+.to-top {
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px 0 10px 80%;
+    background-color: red;
+    border-radius: 10px;
+    color: wheat;
+    font-weight: 600;
+    height: 2vh;
+    padding: 5px;
+    border: 2px outset wheat;     
 }
 
 /* customer reviews form */
