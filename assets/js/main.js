@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <span>Title</span> : &emsp;&emsp;&emsp;&emsp; <strong><i>${object.Title}</i></strong> <br>
             <span>Type</span> : &emsp;&emsp;&emsp;&emsp; <i>${object.Type}</i> <br>
             <span>Genre</span> : &emsp;&emsp;&emsp; <i>${object.Genre}</i> <br>
+            <span>Language(s)</span> : &emsp;&emsp;&nbsp; <i>${object.Language}</i> <br>
             <span>Release date</span> : &nbsp; <i>${object.Released}</i> <br>
             <span>Rated</span> : &emsp;&emsp;&emsp;&nbsp; <i>${object.Rated}</i>  <br>
             <span>Duration</span> : &emsp;&emsp;&nbsp; <i>${object.Runtime}</i> <br>
@@ -50,7 +51,8 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(object => {
             image.removeAttribute('src')
             image.setAttribute('src', `${object.Poster}`)
-            if (object.Type === "movie") {
+
+            if ((object.Ratings.length === 1 || object.Ratings.length === 2) && object.Type !== "series") { // for comedy shows and animations with some missing values
                 
                 movieDetails.innerHTML = 
             `
@@ -58,6 +60,27 @@ document.addEventListener('DOMContentLoaded', () => {
                 <span>Title</span> : &emsp;&emsp;&emsp;&emsp; <strong><i>${object.Title}</i></strong> <br>
                 <span>Type</span> : &emsp;&emsp;&emsp;&emsp; <i>${object.Type}</i> <br>
                 <span>Genre</span> : &emsp;&emsp;&emsp; <i>${object.Genre}</i> <br>
+                <span>Language(s)</span> : &emsp;&emsp;&nbsp; <i>${object.Language}</i> <br>
+                <span>Release date</span> : &nbsp; <i>${object.Released}</i> <br>
+                <span>Rated</span> : &emsp;&emsp;&emsp;&nbsp; <i>${object.Rated}</i>  <br>
+                <span>Duration</span> : &emsp;&emsp;&nbsp; <i>${object.Runtime}</i> <br>
+                <span>Director(s)</span> : &emsp;&emsp; <i>${object.Director}</i> <br>
+                <span>Writer(s)</span> : &emsp;&emsp;&nbsp; <i>${object.Writer}</i> <br>
+                <span>Actors</span> : &emsp;&emsp;&emsp; <i>${object.Actors}</i> <br>
+                <span>Ratings</span> : &emsp;&emsp;&emsp; <i>IMDB - ${object.imdbRating}</i> <br>
+                <span>Plot</span> : <br> ${object.Plot} <br>
+                <span>Awards</span> : <br> ${object.Awards} <br> 
+                </p>
+            `
+            } else if (object.Type === "movie") {
+                
+                movieDetails.innerHTML = 
+            `
+            <p class="movie-info"> 
+                <span>Title</span> : &emsp;&emsp;&emsp;&emsp; <strong><i>${object.Title}</i></strong> <br>
+                <span>Type</span> : &emsp;&emsp;&emsp;&emsp; <i>${object.Type}</i> <br>
+                <span>Genre</span> : &emsp;&emsp;&emsp; <i>${object.Genre}</i> <br>
+                <span>Language(s)</span> : &emsp;&emsp;&nbsp; <i>${object.Language}</i> <br>
                 <span>Release date</span> : &nbsp; <i>${object.Released}</i> <br>
                 <span>Rated</span> : &emsp;&emsp;&emsp;&nbsp; <i>${object.Rated}</i>  <br>
                 <span>Duration</span> : &emsp;&emsp;&nbsp; <i>${object.Runtime}</i> <br>
@@ -82,6 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <span>Title</span> : &emsp;&emsp;&emsp;&emsp; <strong><i>${object.Title}</i></strong> <br>
                     <span>Type</span> : &emsp;&emsp;&emsp;&emsp; <i>${object.Type}</i> <br>
                     <span>Genre</span> : &emsp;&emsp;&emsp; <i>${object.Genre}</i> <br>
+                    <span>Language(s)</span> : &emsp;&emsp;&nbsp; <i>${object.Language}</i> <br>
                     <span>Year(s)</span> : &emsp;&emsp;&emsp;&nbsp; <i>${object.Year}</i> <br>
                     <span>Rated</span> : &emsp;&emsp;&emsp;&nbsp; <i>${object.Rated}</i>  <br>
                     <span>Writer(s)</span> : &emsp;&emsp;&nbsp; <i>${object.Writer}</i> <br>
