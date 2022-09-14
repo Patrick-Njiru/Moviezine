@@ -12,15 +12,6 @@
 #### - A computer or smartphone and,
 #### - Internet access.
 
-## Setup Instructions
-#### 1. Type one of the commands below in your terminal to clone this repository into your machine:
-#### `git@github.com:Patrick-Njiru/Moviezine.git` for those with SSH-Keys or
-#### `https://github.com/Patrick-Njiru/Moviezine.git` using HTTPS or
-#### `gh repo clone Patrick-Njiru/Moviezine` when using GitHub CLI` or
-#### `Download zip file and extract it`
-
-#### 2. After succesfully executing the above command, open index.html file in your browser to view and use the webpage .
-
 # Technologies Used
 
 #### 1. HTML - To create the page structure.
