@@ -180,7 +180,6 @@ ul#added-comments {
     /* other movies and series*/
     .other_movies, .other_series, #recommendations, .other_animations {
         display: block;
-        /* flex-direction: column; */
         width: 50%;
         margin: auto;
     }
@@ -209,4 +208,13 @@ ul#added-comments {
     }
     /* customer reviews form */
     legend h2 { font-size: larger;}
+}
+
+@media screen and (max-width: 450px) { 
+    .other_movies, .other_series, #recommendations, .other_animations {
+        width: 70vw;
+    }
+    .one, .three, .two {
+        width: 70vw;
+    }
 }
