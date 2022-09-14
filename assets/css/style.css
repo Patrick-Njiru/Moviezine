@@ -152,14 +152,16 @@ ul#added-comments {
         font-size: larger;
     }
 
-    /* other movies */
-    .other_movies {
+    /* other movies and series*/
+    .other_movies, .other_series, #recommendations {
         display: block;
         /* flex-direction: column; */
         width: 50%;
         margin: auto;
     }
-
+    .one, .three, .two {
+        margin: 20px 0;
+    }
     /* Search-Results Div */
     #results {
         margin-top: 30px;
