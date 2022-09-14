@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <span>Title</span> : &emsp;&emsp;&emsp;&emsp; <strong><i>${object.Title}</i></strong> <br>
             <span>Type</span> : &emsp;&emsp;&emsp;&emsp; <i>${object.Type}</i> <br>
             <span>Genre</span> : &emsp;&emsp;&emsp; <i>${object.Genre}</i> <br>
-            <span>Language(s)</span> : &emsp;&emsp;&nbsp; <i>${object.Language}</i> <br>
+            <span>Language(s)</span> : &nbsp; <i>${object.Language}</i> <br>
             <span>Release date</span> : &nbsp; <i>${object.Released}</i> <br>
             <span>Rated</span> : &emsp;&emsp;&emsp;&nbsp; <i>${object.Rated}</i>  <br>
             <span>Duration</span> : &emsp;&emsp;&nbsp; <i>${object.Runtime}</i> <br>
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <span>Title</span> : &emsp;&emsp;&emsp;&emsp; <strong><i>${object.Title}</i></strong> <br>
                 <span>Type</span> : &emsp;&emsp;&emsp;&emsp; <i>${object.Type}</i> <br>
                 <span>Genre</span> : &emsp;&emsp;&emsp; <i>${object.Genre}</i> <br>
-                <span>Language(s)</span> : &emsp;&emsp;&nbsp; <i>${object.Language}</i> <br>
+                <span>Language(s)</span> : &nbsp; <i>${object.Language}</i> <br>
                 <span>Release date</span> : &nbsp; <i>${object.Released}</i> <br>
                 <span>Rated</span> : &emsp;&emsp;&emsp;&nbsp; <i>${object.Rated}</i>  <br>
                 <span>Duration</span> : &emsp;&emsp;&nbsp; <i>${object.Runtime}</i> <br>
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <span>Title</span> : &emsp;&emsp;&emsp;&emsp; <strong><i>${object.Title}</i></strong> <br>
                 <span>Type</span> : &emsp;&emsp;&emsp;&emsp; <i>${object.Type}</i> <br>
                 <span>Genre</span> : &emsp;&emsp;&emsp; <i>${object.Genre}</i> <br>
-                <span>Language(s)</span> : &emsp;&emsp;&nbsp; <i>${object.Language}</i> <br>
+                <span>Language(s)</span> : &nbsp; <i>${object.Language}</i> <br>
                 <span>Release date</span> : &nbsp; <i>${object.Released}</i> <br>
                 <span>Rated</span> : &emsp;&emsp;&emsp;&nbsp; <i>${object.Rated}</i>  <br>
                 <span>Duration</span> : &emsp;&emsp;&nbsp; <i>${object.Runtime}</i> <br>
@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <span>Title</span> : &emsp;&emsp;&emsp;&emsp; <strong><i>${object.Title}</i></strong> <br>
                     <span>Type</span> : &emsp;&emsp;&emsp;&emsp; <i>${object.Type}</i> <br>
                     <span>Genre</span> : &emsp;&emsp;&emsp; <i>${object.Genre}</i> <br>
-                    <span>Language(s)</span> : &emsp;&emsp;&nbsp; <i>${object.Language}</i> <br>
+                    <span>Language(s)</span> : &nbsp; <i>${object.Language}</i> <br>
                     <span>Year(s)</span> : &emsp;&emsp;&emsp;&nbsp; <i>${object.Year}</i> <br>
                     <span>Rated</span> : &emsp;&emsp;&emsp;&nbsp; <i>${object.Rated}</i>  <br>
                     <span>Writer(s)</span> : &emsp;&emsp;&nbsp; <i>${object.Writer}</i> <br>
