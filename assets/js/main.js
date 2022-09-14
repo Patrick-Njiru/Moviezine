@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         image.setAttribute('src', `${object.Poster}`)
         movieDetails.innerHTML = 
         `
-        <p id="movie-info"> 
+        <p class="movie-info"> 
             <span>Title</span> : &emsp;&emsp;&emsp;&emsp; <strong><i>${object.Title}</i></strong> <br>
             <span>Type</span> : &emsp;&emsp;&emsp;&emsp; <i>${object.Type}</i> <br>
             <span>Genre</span> : &emsp;&emsp;&emsp; <i>${object.Genre}</i> <br>
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 movieDetails.innerHTML = 
             `
-            <p id="movie-info"> 
+            <p class="movie-info"> 
                 <span>Title</span> : &emsp;&emsp;&emsp;&emsp; <strong><i>${object.Title}</i></strong> <br>
                 <span>Type</span> : &emsp;&emsp;&emsp;&emsp; <i>${object.Type}</i> <br>
                 <span>Genre</span> : &emsp;&emsp;&emsp; <i>${object.Genre}</i> <br>
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
                 movieDetails.innerHTML = 
                 `
-                <p id="movie-info"> 
+                <p class="movie-info"> 
                     <span>Title</span> : &emsp;&emsp;&emsp;&emsp; <strong><i>${object.Title}</i></strong> <br>
                     <span>Type</span> : &emsp;&emsp;&emsp;&emsp; <i>${object.Type}</i> <br>
                     <span>Genre</span> : &emsp;&emsp;&emsp; <i>${object.Genre}</i> <br>
