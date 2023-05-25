@@ -15,7 +15,7 @@ My fourth independent project in Moringa School involving front-end development 
 
 ## Installation
 
-### Requirements
+#### Requirements
  - A computer or smartphone and,
  - Internet access.
 
